@@ -20,7 +20,7 @@ public class Player : MonoBehaviour {
 			moveLR(left,right);
 		}
 		
-		transform.position = Vector3.Lerp(transform.position,posAbs,2.5f*Time.deltaTime);
+		transform.position = Vector3.Lerp(transform.position,posAbs,3*Time.deltaTime);
 		
 		
 		
