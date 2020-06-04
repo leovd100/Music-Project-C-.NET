@@ -25,3 +25,4 @@ Codigo em C# para Unity
 ![Codigo](https://i.imgur.com/Pv1YF60.png "Codigo")
 	
 	
+O AudioListener.GetSpectrumData pega as batidas da música e a partir delas ele vai instânciar um objeto que pode ser o obstáculo do player ou um efeito luminoso. 
