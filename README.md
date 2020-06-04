@@ -8,7 +8,7 @@ O game utiliza as batidas da música para setar objetos em cena.
 
 	Uma musica é formada por várias batidas. Quando está em um gráfico, estas batidas se tornam senóides. 
 	
-	Joseph Fourier, em 1768 descobriu que o calor gerava ondas e apartir dai criou uma formula para achar estas ondas. Hoje ela é 		usada para achar o comprimento de ondas músicais. 
+	Joseph Fourier, em 1768 descobriu que o calor gerava ondas e apartir dai criou uma formula para achar estas ondas. Hoje ela é 	usada para achar o comprimento de ondas músicais. 
 
 Linguagens e tecnologias:
 
