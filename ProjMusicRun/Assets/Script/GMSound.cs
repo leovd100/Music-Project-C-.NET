@@ -12,7 +12,7 @@ public class GMSound : MonoBehaviour {
 	static public bool stopCubes;
 	// Use this for initialization
 	void Start () {
-		i = Random.Range(0,512);
+		i = Random.Range(0,spectrum.Length);
 		j = Random.Range(0,2);
 		g = Random.Range(0,targets.Length);
 	}
@@ -24,44 +24,44 @@ public class GMSound : MonoBehaviour {
 		spectrum = AudioListener.GetSpectrumData(512,0,FFTWindow.Hamming);
 
 
-		if (spectrum[i] *30 > 0.02f && timeToSpawn <= 0){
+			if ((spectrum[i] * 2 ) > 0.1f && timeToSpawn <= 0){
 			Instantiate (repoObj[j],targets[g].transform.position,targets[0].transform.rotation);
 			j = Random.Range(0,2);
-				i = Random.Range(0,spectrum.Length);
-				g = Random.Range(0,targets.Length);
+				//i = Random.Range(0,spectrum.Length);
+			g = Random.Range(0,targets.Length);
 			timeToSpawn = 0.3f;
 		   }
 
-		if (spectrum[i] *30> 0.01f && timeToSpawn <= 0){
+			if ((spectrum[i] * 2 ) > 0.2f && timeToSpawn <= 0){
 
 			Instantiate (repoObj[j],targets[g].transform.position,targets[0].transform.rotation);
 			j = Random.Range(0,2);
-				i = Random.Range(0,spectrum.Length);
+				//i = Random.Range(0,spectrum.Length);
 				g = Random.Range(0,targets.Length);
 			timeToSpawn = 0.3f;
 			}
 
-		if (spectrum[i] *30> 0.015f && timeToSpawn <= 0){
+			if ((spectrum[i] * 2 ) > 0.3f && timeToSpawn <= 0){
 	
 			Instantiate (repoObj[j],targets[g].transform.position,targets[0].transform.rotation);
 			j = Random.Range(0,2);
-				i = Random.Range(0,spectrum.Length);
+				//i = Random.Range(0,spectrum.Length);
 				g = Random.Range(0,targets.Length);
 			timeToSpawn = 0.3f;
 			}
 
-		if (spectrum[i] *30> 0.009f && timeToSpawn <= 0){
+		if ((spectrum[i] * 2 )> 0.05f && timeToSpawn <= 0){
 		
 			Instantiate (repoObj[j],targets[g].transform.position,targets[0].transform.rotation);
 			j = Random.Range(0,2);
-				i = Random.Range(0,spectrum.Length);
+				//i = Random.Range(0,spectrum.Length);
 				g = Random.Range(0,targets.Length);
 			timeToSpawn = 0.3f;
 
 			}
 
-		}
 
+		}
 
 
 

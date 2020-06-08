@@ -16,14 +16,19 @@ public class Player : MonoBehaviour {
 	void Update () {
 		if(center){
 				MoveCenter();
+
+
 		}else if (!center){
 			moveLR(left,right);
-		}
+
+			}
+
+
+
 		
 		transform.position = Vector3.Lerp(transform.position,posAbs,3*Time.deltaTime);
 		
-		
-		
+
 		
 	}
 

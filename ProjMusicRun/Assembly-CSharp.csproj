@@ -51,6 +51,7 @@
      <Compile Include="Assets\Script\Player.cs" />
      <Compile Include="Assets\Script\block.cs" />
      <Compile Include="Assets\Script\blocks\blocoH.cs" />
+     <Compile Include="Assets\Script\camAnimation.cs" />
      <Compile Include="Assets\Script\spawn.cs" />
      <Compile Include="Assets\cilinder.cs" />
      <Compile Include="Assets\disco.cs" />
@@ -63,6 +64,7 @@
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\doc.txt" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
